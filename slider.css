@@ -20,7 +20,7 @@ body{
 }
 
 .arrow{
-    height: 150px;
+    height: 100px;
     cursor: pointer;
 }
 
@@ -32,6 +32,11 @@ body{
     width: 600px;
     height: 350px;
     overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    transition: all 1s ease;
 }
 
 .image{
